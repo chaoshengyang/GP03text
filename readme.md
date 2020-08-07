@@ -53,6 +53,8 @@ git.status查看状态 。有修改就add commit
 1. git pull
 :wq 回车 退出编辑模式
 
+## 克隆
+`git clone ` 克隆一个仓库到本地
 <!-- ## 引入js代码
 ```js
 var  abc = 123;
