@@ -36,7 +36,14 @@
 2. git add 文件名  git add . 将文件提交到暂存区
 3. git commit -m '注释'   暂存区提交到本地仓库
 
+## 远程仓库
+ 1. git remote add origin(变量名) 仓库地址 把本地仓库与远程仓库关联
+ 2.git remote -v 查看关联的远程仓库地址  一个本地仓库可以连接多个远程仓库
 
+## 远程提交
+1. `git push` 本地仓库提交到远程仓库
+2.`git push` -u origin master push到默认的远程仓库
+执行一次这个命令，以后可以直接`git push` 提交到默认远程仓库的master分支
 
 
 <!-- ## 引入js代码
