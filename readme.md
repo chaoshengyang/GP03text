@@ -31,10 +31,6 @@
 1. 版本回退  --hard 版本号 回退到指定版本
 2. HEAD^回退到上一个版本
 
-## 主要的操作
-1. git init 初始化 创建版本库
-2. git add 文件名  git add . 将文件提交到暂存区
-3. git commit -m '注释'   暂存区提交到本地仓库
 
 ## 远程仓库
  1. git remote add origin(变量名) 仓库地址 
@@ -55,6 +51,21 @@ git.status查看状态 。有修改就add commit
 
 ## 克隆
 `git clone ` 克隆一个仓库到本地
+
+## 创建分支
+ `git branch 分支名 `创建分支
+## 查看分支
+ `git branch` 查看分支  当前分支前面有个*
+## 切换分支
+ `git checkout 分支名 ` 切换分支
+
+ 
+## 主要的操作
+1. git init 初始化 创建版本库  只有第一次写
+2. git add 文件名  git add . 将文件提交到暂存区
+3. git commit -m '注释'   暂存区提交到本地仓库
+4. git pull 拉取远程的更新
+5.git push 推送到远程仓库
 <!-- ## 引入js代码
 ```js
 var  abc = 123;
