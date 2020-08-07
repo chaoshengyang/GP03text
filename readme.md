@@ -39,7 +39,7 @@
 
 ## 远程提交
 1. `git push` 本地仓库提交到远程仓库
-2.`git push` -u origin master push到默认的远程仓库
+2.`git push` -u origin master   push到默认的远程仓库
 执行一次这个命令，以后可以直接`git push` 提交到默认远程仓库的master分支
 
 ## 更新
@@ -80,8 +80,11 @@ git.status查看状态 。有修改就add commit
 1. git init 初始化 创建版本库  只有第一次写
 2. git add 文件名  git add . 将文件提交到暂存区
 3. git commit -m '注释'   暂存区提交到本地仓库
-4. git pull 拉取远程的更新
-5.git push 推送到远程仓库
+4. git remote add origin(变量名) 仓库地址  连接远程仓库
+5. `git push` -u origin master  第一次push设置默认推送到origin的master分支
+6. 每次pull之前 push之前，确认工作区已经提交
+7. git pull 拉取远程的更新
+8 .git push 推送到远程仓库
 <!-- ## 引入js代码
 ```js
 var  abc = 123;
