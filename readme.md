@@ -46,7 +46,7 @@
 2.`git push` -u origin master push到默认的远程仓库
 执行一次这个命令，以后可以直接`git push` 提交到默认远程仓库的master分支
 
-
+## 远程拉取
 <!-- ## 引入js代码
 ```js
 var  abc = 123;
