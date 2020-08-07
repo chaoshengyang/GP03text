@@ -46,7 +46,13 @@
 2.`git push` -u origin master push到默认的远程仓库
 执行一次这个命令，以后可以直接`git push` 提交到默认远程仓库的master分支
 
+## 更新
+1. 每次拉取前都要保证工作区全存到了本地仓库。
+git.status查看状态 。有修改就add commit
 ## 远程拉取
+1. git pull
+:wq 回车 退出编辑模式
+
 <!-- ## 引入js代码
 ```js
 var  abc = 123;
