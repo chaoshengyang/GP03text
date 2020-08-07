@@ -37,7 +37,8 @@
 3. git commit -m '注释'   暂存区提交到本地仓库
 
 ## 远程仓库
- 1. git remote add origin(变量名) 仓库地址 把本地仓库与远程仓库关联
+ 1. git remote add origin(变量名) 仓库地址 
+ 把本地仓库与远程仓库关联
  2.git remote -v 查看关联的远程仓库地址  一个本地仓库可以连接多个远程仓库
 
 ## 远程提交
